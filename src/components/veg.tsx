@@ -1,9 +1,11 @@
+import VegCard from "./vegCard"
 
 
 const Veg = () => {
   return (
     <div>
-      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea r</p>
+      
+      <VegCard/>
     </div>
   )
 }
