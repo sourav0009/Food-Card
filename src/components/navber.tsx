@@ -13,7 +13,7 @@ const Navber = () => {
     };
 
     return (
-        <nav className="bg-black md:bg-white border-gray-200 dark:bg-gray-900 fixed w-full top-0 z-50">
+        <nav className="bg-black md:bg-white border-gray-200 dark:bg-gray-900 fixed justify-center item w-full top-0 z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Logo Section */}
                 <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -30,7 +30,7 @@ const Navber = () => {
 
                 {/* Links Section */}
                 <div className={`${isOpen ? 'block' : 'hidden'} absolute  left-28 w-full md:static md:w-auto md:flex md:bg-white md:dark:bg-gray-900 flex items-center justify-center top-10`}>
-                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className=" md:flex md:justify-center md:items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
                             <a href="#" className="block py-2 px-3 md:p-0 dark:text-white text-black md:text-blue-700  md:bg-transparent md:dark:text-blue-500" aria-current="page">Home</a>
                         </li>
