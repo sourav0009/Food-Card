@@ -185,7 +185,7 @@ const Data = [
 
 const Veg = () => {
   return (
-    <div>
+    <div className=" flex flex-wrap gap-10 justify-center mx-6 my-10">
       {Data.map((el) => (
         < VegCard
           key={el.id}
