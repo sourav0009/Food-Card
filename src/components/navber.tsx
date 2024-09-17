@@ -32,13 +32,16 @@ const Navber = () => {
                 <div className={`${isOpen ? 'block' : 'hidden'} absolute  left-28 w-full md:static md:w-auto md:flex md:bg-white md:dark:bg-gray-900 flex items-center justify-center top-10`}>
                     <ul className=" md:flex md:justify-center md:items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <a href="#" className="block py-2 px-3 md:p-0 dark:text-white text-black md:text-blue-700  md:bg-transparent md:dark:text-blue-500" aria-current="page">Home</a>
+                            <a href="/" className="block py-2 px-3 md:p-0 dark:text-white text-black md:text-blue-700  md:bg-transparent md:dark:text-blue-500" aria-current="page">Home</a>
                         </li>
                         <li>
                             <a href="/about" className="block py-2 px-3 md:p-0 text-gray-900 rounded  md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white">About</a>
                         </li>
                         <li>
                             <a href="/contact" className="block py-2 px-3 md:p-0 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/Cart" className="block py-2 px-3 md:p-0 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white">Cart</a>
                         </li>
                     </ul>
                 </div>

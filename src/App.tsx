@@ -4,6 +4,7 @@ import Veg from "./components/veg"
 import Nonveg from "./components/nonveg"
 import About from "./components/about"
 import Contact from "./components/contact"
+import Cart from "./components/Cart"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/nonveg' element={<Nonveg />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/Cart' element={<Cart />}></Route>
 
       </Routes>
     </BrowserRouter>
