@@ -8,7 +8,7 @@ const ItemCard = () => {
             <img src="https://img.freepik.com/free-photo/seafood-pizza_74190-5944.jpg?w=996&t=st=1693062328~exp=1693062928~hmac=53fd9ad496580db41c6ca8066510cd89c6b0a0389de8bb6b875a78a1eda09cb5" alt=""
                 className=" w-[50px] h-[50px] rounded-full"
             />
-            <div>
+            <div className=" leading-5">
                 <h2 className=" font-bold text-gray-600">Onion Pizza</h2>
                 <div className=" flex justify-between">
                     <span className=" text-green-500 font-bold">120</span>
