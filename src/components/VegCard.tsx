@@ -16,7 +16,7 @@ const VegCard:React.FC<propsType> = ({img,name,price,desc,rating}) => {
     return (
         <>
             <Navber />
-                <div className=" font-bold w-[255px] bg-slate-100 p-8 flex flex-col mt-16 rounded-lg gap-2 ">
+                <div className=" font-bold w-[255px] bg-slate-100 p-8 flex flex-col mt-16 rounded-lg gap-2 hs-accordion transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 ">
                     <img src={img} alt="" className=" w-auto h-[130px] hover:scale-110 cursor-grab transition-all duration-500 ease-in-out"/>
                     <div className=" text-sm flex justify-between">
                         <h2>{name.slice(0,18)}</h2>

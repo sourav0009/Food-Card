@@ -1,6 +1,7 @@
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import { MdDelete } from "react-icons/md";
 
+
 const ItemCard = () => {
     return (
         <div className=" flex gap-2 shadow-md rounded-lg p-2 mb-3">

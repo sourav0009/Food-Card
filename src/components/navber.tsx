@@ -18,7 +18,7 @@ const Navber = () => {
                 {/* Logo Section */}
                 <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img className=" h-[40px] w-[40px]" src="logo.png" alt="Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">CARD</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">FOODI</span>
                 </a>
 
                 {/* Mobile Menu Button */}
