@@ -2,8 +2,14 @@
 
 const About = () => {
   return (
-    <div>
-      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero q</p>
+    <div className="">
+      <span className=" flex justify-center font-bold text-4xl">About Me</span>
+      <div className=" flex justify-center mt-40 space-x-16">
+        <div className=" h-68 w-[120vh] flex border gap-28" >
+          <p className=" text-center mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro fuga non assumenda ipsum quia sint officiis similique? Deleniti maiores ipsam laborum alias iure illum nobis obcaecati quibusdam omnis impedit earum ipsa fuga assumenda qui illo dolores eveniet, dolorum nulla debitis deserunt non recusandae. Vitae culpa optio aliquid distinctio placeat?</p>
+          <img className="h-[50vh] rounded-full"  src="https://scontent.fccu31-2.fna.fbcdn.net/v/t39.30808-6/338715009_741580874121085_3626178987623533266_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=tlnisaRrUyIQ7kNvgFNWLgB&_nc_ht=scontent.fccu31-2.fna&_nc_gid=AFe2FtMJ_AOokwtNDfRwutC&oh=00_AYCLf-g6Hvzlv_etmW_5lUCy80BoZ08WJPth7QqRqh0HxQ&oe=66F86202" alt="" />
+        </div>
+      </div>
     </div>
   )
 }

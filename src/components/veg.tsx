@@ -195,7 +195,7 @@ const Veg = () => {
             price={el.price}
             desc={el.desc}
             rating={el.rating}
-            name={el.name} category={""} />
+            name={el.name} category={""}  />
         ))}
       </div>
     </>

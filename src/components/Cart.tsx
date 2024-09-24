@@ -8,9 +8,6 @@ const Card = () => {
         <div className=" border h-[60vh] w-[45vh]  lg:h-[70vh] lg:w-[40vw] p-6 rounded-lg shadow-2xl bg-slate-300 ">
           <span className=" flex justify-center text-center text-2xl font-bold  ">My Order</span>
           <ItemCard/>
-          <ItemCard/>
-          <ItemCard/>
-          <ItemCard/>
           <div className=" absolute bottom-[55vw] lg:bottom-36">
             <h3 className=" font-semibold text-green-800">Items : </h3>
             <h3 className=" font-semibold text-green-800">Total Amount : </h3>
